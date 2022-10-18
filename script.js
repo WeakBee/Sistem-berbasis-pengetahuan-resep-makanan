@@ -1,4 +1,4 @@
-$.getJSON('./API/royco.json', function (data){
+$.getJSON('./API/umami.json', function (data){
     // Membuat Kartu
     $.each(data, function(i,data){
         $('.daftar-menu').append(`

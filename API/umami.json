@@ -1,3 +1,122 @@
 [
-    
+    {
+        "nama" : "Sayur Bayam",
+        "gambar" : "",
+        "semua_bahan" : [
+            {"bahan" : "Bayam","jumlah" : 2, "satuan" :"ikat", "cat" : ""},
+            {"bahan" : "Jagung","jumlah" : 1, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "Wortel","jumlah" : 1, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "Bawang Merah","jumlah" : 7, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "Bawang Putih","jumlah" : 2, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "Temu Kunci","jumlah" : 1, "satuan" :"ruas", "cat" : ""},
+            {"bahan" : "Aji No Moto","jumlah" : 0.5, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "Garam","jumlah" : 1, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "Air","jumlah" : 1500, "satuan" :"ml", "cat" : ""}
+        ],
+        "cara" : [
+            {"resep" : "Bersihkan bayam hilangkan akar dan batangnya"},
+            {"resep" : "Iris bawang merah, bawang putih, cabai merah"},
+            {"resep" : "Didihkan air"},
+            {"resep" : "Masukan rempah temu kunci, iris bawang dan cabai, masukan potongan jagung dan irisan wortel, kemudian masukan bayam. Masukan A-JI-NO-MOTO®, garam, masak sebentar kemudian sajikan"}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "semua_bahan" : [
+            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+
+        ],
+        "cara" : [
+            {"resep" : ""}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "semua_bahan" : [
+            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+
+        ],
+        "cara" : [
+            {"resep" : ""}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "semua_bahan" : [
+            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+
+        ],
+        "cara" : [
+            {"resep" : ""}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "semua_bahan" : [
+            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+
+        ],
+        "cara" : [
+            {"resep" : ""}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "semua_bahan" : [
+            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+
+        ],
+        "cara" : [
+            {"resep" : ""}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "semua_bahan" : [
+            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+
+        ],
+        "cara" : [
+            {"resep" : ""}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "semua_bahan" : [
+            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+
+        ],
+        "cara" : [
+            {"resep" : ""}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "semua_bahan" : [
+            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+
+        ],
+        "cara" : [
+            {"resep" : ""}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "semua_bahan" : [
+            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+
+        ],
+        "cara" : [
+            {"resep" : ""}
+        ]
+    }
 ]
