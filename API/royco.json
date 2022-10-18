@@ -1,0 +1,40 @@
+[
+    {
+        "nama" : "Tumis Kangkung",
+        "gambar" : "./assets/Tumis Kangkung.jpg",
+        "semua_bahan" : [
+            {"bahan" : "Bawang Merah","jumlah" : 5, "satuan" :"buah", "cat" : "Cincang Halus"},
+            {"bahan" : "Bawang Putih","jumlah" : 3, "satuan" :"siung", "cat" : "Memarkan Cincang Halus" },
+            {"bahan" : "Royco Kaldu Ayam","jumlah" : 1.25, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "Minyak Wijen","jumlah" : 1, "satuan" :"sdm", "cat" : ""},
+            {"bahan" : "Cabai Merah","jumlah" : 2, "satuan" :"buah", "cat" : "Buang Biji Iris Serong Tipis"},
+            {"bahan" : "Kangkung","jumlah" : 2, "satuan" :"ikat", "cat" : "Petiki Daunnya"},
+            {"bahan" : "Minyak","jumlah" : 3, "satuan" :"sdm", "cat" : "Untuk Menumis"}
+        ],
+        "cara" : [
+            {"resep" : "Panaskan minyak didalam wajan di atas api sedang. Tumis bawang merah dan bawang putih hingga harum."},
+            {"resep" : "Masukkan Royco Kaldu Ayam, minyak wijen, dan cabai merah, aduk rata."},
+            {"resep" : "Masukkan kangkung, aduk rata hingga semua bahan tercampur rata. Angkat."},
+            {"resep" : "Sajikan segera ditemani nasi putih."}
+        ]
+    },{
+        "nama" : "Sayur Asem",
+        "gambar" : "./assets/Sayur Asem.jpg",
+        "semua_bahan" : [
+            {"bahan" : "Air","jumlah" : 500, "satuan" :"ml", "cat" : ""},
+            {"bahan" : "Melinjo","jumlah" : 100, "satuan" :"gram", "cat" : "" },
+            {"bahan" : "Kacang Tanah","jumlah" : 100, "satuan" :"gram", "cat" : ""},
+            {"bahan" : "Jagung Manis","jumlah" : 1, "satuan" :"buah", "cat" : "potong potong menjadi bagian"},
+            {"bahan" : "Labu Siam","jumlah" : 1, "satuan" :"buah", "cat" : "kupas potong dadu"},
+            {"bahan" : "Kacang Panjang","jumlah" : 100, "satuan" :"gram", "cat" : "Potong 5cm"},
+            {"bahan" : "Royco Bumbu Komplit Sayur Asem","jumlah" : 1, "satuan" :"bungkus", "cat" : ""},
+            {"bahan" : "Daun Melinjo","jumlah" : 50, "satuan" :"gram", "cat" : ""}
+        ],
+        "cara" : [
+            {"resep" : "Didihkan air di dalam panci. Masukkan buah melinjo, kacang tanah, dan jagung hingga matang."},
+            {"resep" : "Tambahkan labu siam dan kacang panjang, didihkan."},
+            {"resep" : "Masukkan Royco Bumbu Komplit Sayur Asem dan daun melinjo, aduk rata. Angkat."},
+            {"resep" : "Sajikan segera."}
+        ]
+    }
+]
