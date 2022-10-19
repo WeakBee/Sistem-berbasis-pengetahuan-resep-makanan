@@ -58,9 +58,9 @@
             {"bahan" : "bawang merah","jumlah" : 150, "satuan" :"gr", "cat" : "kupas (iris tipis)"},
             {"bahan" : "bawang putih","jumlah" : 1, "satuan" :"siung", "cat" : "cincang kasar"},
             {"bahan" : "daun jeruk","jumlah" : 10, "satuan" :"lbr", "cat" : "buang batang, lalu iris tipis"},
-            {"bahan" : "cabe rawit merah","jumlah" : 8-10, "satuan" :"buah", "cat" : "iris tipis"},
+            {"bahan" : "cabe rawit merah","jumlah" : 8, "satuan" :"buah", "cat" : "iris tipis"},
             {"bahan" : "sereh","jumlah" : 3, "satuan" :"btg", "cat" : "iris, gunakan bagian putih saja"},
-            {"bahan" : "jeruk limau","jumlah" : 2-3, "satuan" :"peras", "cat" : "sesuai selera"},
+            {"bahan" : "jeruk limau","jumlah" : 2, "satuan" :"peras", "cat" : "sesuai selera"},
             {"bahan" : "terasi udang","jumlah" : 1, "satuan" :"sdt", "cat" : ""},
             {"bahan" : "gula","jumlah" : 1, "satuan" :"sdt", "cat" : ""},
             {"bahan" : "garam","jumlah" : 0.5, "satuan" :"sdt", "cat" : ""},
@@ -111,36 +111,82 @@
         ]
     },
     {
-        "nama" : "",
+        "nama" : "Tuna Sayur Krispi",
         "gambar" : "",
         "semua_bahan" : [
-            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+            {"bahan" : "ikan tuna","jumlah" : 170, "satuan" :"gr", "cat" : "cincang kasar"},
+            {"bahan" : "Wortel","jumlah" : 70, "satuan" :"gr", "cat" : "cincang kasar"},
+            {"bahan" : "buncis","jumlah" : 3, "satuan" :"buah", "cat" : "potong 1 cm"},
+            {"bahan" : "telur","jumlah" : 0.5, "satuan" :"btr", "cat" : "kocok"},
+            {"bahan" : "maizena","jumlah" : 1, "satuan" :"sdm", "cat" : ""},
+            {"bahan" : "air","jumlah" : 100, "satuan" :"ml", "cat" : ""},
+            {"bahan" : "sajiku golden crispy","jumlah" : 1, "satuan" :"bks", "cat" : ""},
+            {"bahan" : "minyak goreng","jumlah" : 600, "satuan" :"ml", "cat" : ""}
 
         ],
         "cara" : [
-            {"resep" : ""}
+            {"resep" : "Campurkan tuna, wortel, buncis, maizena dan telur. Bentuk adonan menjadi bulat pipih, lalu kukus selama 15 menit."},
+            {"resep" : "Siapkan adonan basah dengan melarutkan 5 sdm Sajiku® Golden Crispy dengan 100 ml air. Sisanya digunakan sebagai adonan kering."},
+            {"resep" : "Lumuri tuna kedalam adonan kering, lalu celupkan tuna ke dalam adonan basah hingga rata."},
+            {"resep" : "Gulingkan kembali tuna ke adonan kering hingga terbentuk kulit yang keriting. Kemudian, goreng dalam minyak panas hingga berwarna kuning kecoklatan, angkat."}
         ]
     },
     {
-        "nama" : "",
+        "nama" : "Sate Ayam Asam Manis",
         "gambar" : "",
         "semua_bahan" : [
-            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+            {"bahan" : "Ayam dada dan paha fillet","jumlah" : 350, "satuan" :"gr", "cat" : ""},
+            {"bahan" : "paprika hijau","jumlah" : 30, "satuan" :"gr", "cat" : ""},
+            {"bahan" : "paprika merah","jumlah" : 30, "satuan" :"gr", "cat" : ""},
+            {"bahan" : "nanas","jumlah" : 100, "satuan" :"gr", "cat" : ""},
+            {"bahan" : "Aji No Moto","jumlah" : 2, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "minyak goreng","jumlah" : 3, "satuan" :"sdm", "cat" : "untuk menumis"},
+            {"bahan" : "air asam jawa","jumlah" : 2, "satuan" :"sdm", "cat" : ""},
+            {"bahan" : "gula jawa","jumlah" : 1, "satuan" :"sdm", "cat" : ""},
+            {"bahan" : "air","jumlah" : 70, "satuan" :"ml", "cat" : ""},
+            {"bahan" : "garam","jumlah" : 0.5, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "cabe merah kriting","jumlah" : 5, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "cabe rawit merah","jumlah" : 2, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "bawang merah","jumlah" : 6, "satuan" :"btr", "cat" : ""},
+            {"bahan" : "bawang putih","jumlah" : 3, "satuan" :"btr", "cat" : ""},
+            {"bahan" : "kemiri sangrai","jumlah" : 2, "satuan" :"btr", "cat" : ""},
+            {"bahan" : "jahe","jumlah" : 2, "satuan" :"cm", "cat" : ""},
+            {"bahan" : "tusuk sate","jumlah" : 15, "satuan" :"buah", "cat" : ""}
 
         ],
         "cara" : [
-            {"resep" : ""}
+            {"resep" : "Tumis bumbu halus hingga harum. Masukkan ayam, AJI-NO-MOTO®, air asam jawa, gula jawa, dan air, kemudian masak hingga matang meresap. Angkat."},
+            {"resep" : "Ambil tusuk sate, tusukkan paprika, nanas, dan ayam secara selang-seling."},
+            {"resep" : "Bakar atau panggang di atas wajan anti lengket dan bolak-balik hingga warna berubah menjadi kecoklatan."},
+            {"resep" : "Sajikan sate pedas selagi hangat dengan nasi putih."}
         ]
     },
     {
-        "nama" : "",
+        "nama" : "Opor Ayam Khas Solo",
         "gambar" : "",
         "semua_bahan" : [
-            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+            {"bahan" : "ayam","jumlah" : 1, "satuan" :"kg", "cat" : "(potong 10 bagian)"},
+            {"bahan" : "santan kental","jumlah" : 300, "satuan" :"ml", "cat" : ""},
+            {"bahan" : "santan encer","jumlah" : 70, "satuan" :"ml", "cat" : ""},
+            {"bahan" : "daun jeruk","jumlah" : 5, "satuan" :"lbr", "cat" : ""},
+            {"bahan" : "daun salam","jumlah" : 3, "satuan" :"lbr", "cat" : ""},
+            {"bahan" : "serai","jumlah" : 2, "satuan" :"btg", "cat" : ""},
+            {"bahan" : "lengkuas","jumlah" : 3, "satuan" :"cm", "cat" : ""},
+            {"bahan" : "masako rasa ayam","jumlah" : 2.5, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "gula pasir","jumlah" : 1.5, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "minyak goreng","jumlah" : 2, "satuan" :"sdm", "cat" : "untuk menumis"},
+            {"bahan" : "bawang merah","jumlah" : 10, "satuan" :"siung", "cat" : ""},
+            {"bahan" : "bawang putih","jumlah" : 4, "satuan" :"siung", "cat" : ""},
+            {"bahan" : "ketumbar sangrai","jumlah" : 2, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "jahe","jumlah" : 2, "satuan" :"cm", "cat" : ""},
+            {"bahan" : "jinten sangrai","jumlah" : 0.25, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "bawang goreng","jumlah" : 0, "satuan" :"", "cat" : ""}
 
         ],
         "cara" : [
-            {"resep" : ""}
+            {"resep" : "Tumis bumbu halus, daun jeruk, daun salam, lengkuas dan serai hingga harum. Masukkan ayam, masak hingga berubah warna."},
+            {"resep" : "Tambahkan Masako® Rasa Ayam dan gula pasir. Aduk rata. Tuang santan encer, masak hingga mendidih dan ayam matang."},
+            {"resep" : "Masukkan santan kental, masak hingga mengental. Sajikan dengan taburan bawang goreng."}
         ]
     },
     {
