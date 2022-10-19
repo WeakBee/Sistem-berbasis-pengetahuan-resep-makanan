@@ -21,36 +21,93 @@
         ]
     },
     {
-        "nama" : "",
+        "nama" : "Ayam Goreng Sambal Terasi",
         "gambar" : "",
         "semua_bahan" : [
-            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
-
+            {"bahan" : "daging ayam","jumlah" : 1, "satuan" :"kg", "cat" : ""},
+            {"bahan" : "sajiku bumbu ayam goreng","jumlah" : 1, "satuan" :"bks", "cat" : ""},
+            {"bahan" : "air","jumlah" : 650, "satuan" :"ml", "cat" : ""},
+            {"bahan" : "minyak goreng","jumlah" : 600, "satuan" :"ml", "cat" : ""},
+            {"bahan" : "bawang putih","jumlah" : 10, "satuan" :"siung", "cat" : "potong"},
+            {"bahan" : "Bawang Merah","jumlah" : 15, "satuan" :"siung", "cat" : "potong"},
+            {"bahan" : "kemiri","jumlah" : 5, "satuan" :"buah", "cat" : "geprek"},
+            {"bahan" : "cabai rawit","jumlah" : 15, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "cabai merah","jumlah" : 14, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "tomat","jumlah" : 1, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "terasi","jumlah" : 6, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "serai","jumlah" : 1, "satuan" :"btg", "cat" : ""},
+            {"bahan" : "daun salam","jumlah" : 2, "satuan" :"lbr", "cat" : ""},
+            {"bahan" : "garam","jumlah" : 1, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "gula merah","jumlah" : 4, "satuan" :"sdm", "cat" : ""}
         ],
         "cara" : [
-            {"resep" : ""}
+            {"resep" : "Didihkan 500 ml air masukkan 1 kg daging ayam yang telah dipotong, masukkan Sajiku® Bumbu Ayam Goreng. Aduk rata."},
+            {"resep" : "Rebus/ungkep ayam sampai dagingnya empuk dan airnya surut."},
+            {"resep" : "Goreng ayam dengan minyak goreng panas sampai berwarna kecoklatan. Angkat dan tiriskan."},
+            {"resep" : "Sambal terasi; tumis bawang merah, bawang putih, kemiri, cabe merah, cabe rawit, tomat, terasi hingga layu kemudian haluskan. Tumis kembali tambahkan serai, daun salam, air, garam, gula merah. Masak hingga air menyusut."},
+            {"resep" : "Sajikan ayam goreng dengan sambal terasi."}
         ]
     },
     {
-        "nama" : "",
+        "nama" : "Ikan Kembung Sambal Matah",
         "gambar" : "",
         "semua_bahan" : [
-            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
-
+            {"bahan" : "Ikan kembung","jumlah" : 1, "satuan" :"kg", "cat" : "bersihkan lalu sayat"},
+            {"bahan" : "jeruk limau","jumlah" : 3, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "sajiku bumbu praktis ikan goreng","jumlah" : 1, "satuan" :"bks", "cat" : ""},
+            {"bahan" : "bawang merah","jumlah" : 150, "satuan" :"gr", "cat" : "kupas (iris tipis)"},
+            {"bahan" : "bawang putih","jumlah" : 1, "satuan" :"siung", "cat" : "cincang kasar"},
+            {"bahan" : "daun jeruk","jumlah" : 10, "satuan" :"lbr", "cat" : "buang batang, lalu iris tipis"},
+            {"bahan" : "cabe rawit merah","jumlah" : 8-10, "satuan" :"buah", "cat" : "iris tipis"},
+            {"bahan" : "sereh","jumlah" : 3, "satuan" :"btg", "cat" : "iris, gunakan bagian putih saja"},
+            {"bahan" : "jeruk limau","jumlah" : 2-3, "satuan" :"peras", "cat" : "sesuai selera"},
+            {"bahan" : "terasi udang","jumlah" : 1, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "gula","jumlah" : 1, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "garam","jumlah" : 0.5, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "ajinomoto","jumlah" : 0.5, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "minyak kelapa","jumlah" : 50, "satuan" :"ml", "cat" : ""}
         ],
         "cara" : [
-            {"resep" : ""}
+            {"resep" : "Siapkan 1 kg ikan yang sudah dicuci. Sayat permukaannya."},
+            {"resep" : "Lumuri ikan kembung dengan jeruk limau, diamkan selama 3 menit."},
+            {"resep" : "Setelah itu lumuri dengan Sajiku® Bumbu Praktis Ikan Goreng, diamkan selama 15 menit."},
+            {"resep" : "Goreng ikan dalam minyak goreng panas hingga kuning kecoklatan, angkat dan sajikan."},
+            {"resep" : "Sambal Matah; masak terasi dengan minyak kelapa. Setelah beberapa saat masukkan sereh dan bawang putih. Masak dengan api sangat kecil, sampai sereh menjadi wandi dan jangan sampai bawang putih menjadi coklat. Letakkan bawang merah, cabai dan daun jeruk di dalam mangkuk, lalu masukkan air jeruk limau tambahkan garam dan AJI-NO-MOTO®, lalu aduk rata."},
+            {"resep" : "Sajikan ikan goreng dengan sambal matah."}
         ]
-    },
+    }, 
     {
-        "nama" : "",
+        "nama" : "Soto Daging Santan Kuning",
         "gambar" : "",
         "semua_bahan" : [
-            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
-
+            {"bahan" : "daging","jumlah" : 300, "satuan" :"gr", "cat" : ""},
+            {"bahan" : "santan","jumlah" : 100, "satuan" :"ml", "cat" : ""},
+            {"bahan" : "serai","jumlah" : 1, "satuan" :"btg", "cat" : ""},
+            {"bahan" : "lengkuas","jumlah" : 1, "satuan" :"ruas jari", "cat" : ""},
+            {"bahan" : "daun jeruk","jumlah" : 4, "satuan" :"lbr", "cat" : ""},
+            {"bahan" : "daun salam","jumlah" : 2, "satuan" :"lbr", "cat" : ""},
+            {"bahan" : "masako sapi","jumlah" : 2, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "lada","jumlah" : 0.5, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "gula","jumlah" : 1, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "air","jumlah" : 1000, "satuan" :"ml", "cat" : ""},
+            {"bahan" : "minyak goreng","jumlah" : 2, "satuan" :"sdm", "cat" : ""},
+            {"bahan" : "bawang merah","jumlah" : 8, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "bawang putih","jumlah" : 4, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "kemiri","jumlah" : 3, "satuan" :"butir", "cat" : ""},
+            {"bahan" : "kunyit","jumlah" : 1, "satuan" :"ruas jari", "cat" : ""},
+            {"bahan" : "ketumbar","jumlah" : 1, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "tomat","jumlah" : 1, "satuan" :"buah", "cat" : "potong panjang"},
+            {"bahan" : "kentang","jumlah" : 1, "satuan" :"buah", "cat" : "potong dadu, goreng"},
+            {"bahan" : "daun bawang","jumlah" : 1, "satuan" :"btg", "cat" : "iris"},
+            {"bahan" : "bawang goreng","jumlah" : 0, "satuan" :"", "cat" : ""},
+            {"bahan" : "jeruk nipis","jumlah" : 1, "satuan" :"buah", "cat" : ""}
         ],
         "cara" : [
-            {"resep" : ""}
+            {"resep" : "Rebus daging sapi dengan dua lembar daun jeruk, satu lembar daun salam sampai empuk, angkat dan buang airnya. Tips: Perebusan dua kali pada daging membuat daging tidak bau amis."},
+            {"resep" : "Panaskan minyak, tumis bumbu halus bersama daun jeruk, daun salam, serai, lengkuas hingga bau langu hilang kemudian masukkan air biarkan mendidih."},
+            {"resep" : "Masukkan daging bumbui dengan Masako® Sapi, gula, dan lada."},
+            {"resep" : "Tambahkan santan aduk hingga mendidih dengan api kecil."},
+            {"resep" : "Sajikan dengan pelengkap."}
         ]
     },
     {
