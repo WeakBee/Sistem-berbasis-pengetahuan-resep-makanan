@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: var(--warna4);
 }
 :root{
@@ -13,64 +13,123 @@
     --warna3 : #E8E7E3;
     --warna4 : #333333;
     --warna5 : #F0BD46;
-    --warna6 : #C5BAA6;
-}
-body{
-    background-color: var(--warna2);
+    --warna6 : #A8A8A8;
 }
 
+/* Navbar */
 .navbar{
-    background-color: var(--warna1);
+    background-color: white;
 }
 .navbar .container{
     position: relative;
+    border: 2px solid rgb(216, 216, 216);
+    border-style: none none solid none;
+    padding-bottom: 15px;
 }
 .navbar-brand{
     font-weight: bold;
-    margin-right: 70px;
-    font-family: 'Lobster Two', cursive;
+    margin-right: 20px;
     font-size: 35px;
     color: var(--warna4);
 }
+.navbar-brand span{
+    font-weight: bold;
+    margin-right: 70px;
+    font-size: 35px;
+    color: var(--warna1);
+}
 .nav-item{
-    margin-left: 20px;
+    margin-left: 50px;
 }
 .navbar .btn{
     background-color: white;
-    border-radius: 25px;
+    border-radius: 10px;
     padding: 8px 30px;
-    font-weight: 700;
-    box-shadow: 5px 5px 0px black;
+    font-weight: 500;
     transition: 0.3s;
+    color: var(--warna1);
+    border: 1px solid var(--warna1);
+    display: flex;
+    align-items: center;
+}
+.navbar .btn i{
+    color: var(--warna1);
+    margin-left: 10px;
 }
 .navbar .btn:hover{
-    background-color: transparent;
+    background-color: var(--warna1);
     color: white;
-    box-shadow: 5px 5px 0px black;
-    border: 2px solid white;
-    transform: scale(1.1);
 }
+.navbar .btn:hover i{
+    color: white;
+}
+/* Navbar */
+
 /* First */
 #first{
-    background-color: var(--warna1);
     border-radius: 0 0 40px 40px;
 }
 #first .container{
     padding-top: 30px;
+    padding-bottom: 80px;
 }
 #first .kolom-kiri{
-    padding-top: 50px;
+    position: relative;
+    padding-top: 40px;
 }
-#first h1{
-    font-size: 70px;
-    font-family: 'Lobster Two', cursive;
+#first h2{
+    color: var(--warna1);
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 40px;
 }
-#first h1 span{
+#first h3{
+    font-weight: bold;
+}
+#first .button-mulai{
+    position: absolute;
+    background-color: var(--warna1);
+    padding: 15px 30px;
     color: white;
-    font-family: 'Lobster Two', cursive;
+    margin-top: 53px;
+    border: none;
+} 
+#first .button-mulai i{
+    color: white;
+    margin-left: 20px;
+}
+#first .kolom-kanan{
+    position: relative;
 }
 #first .cooking-image{
-    width: 80%;
+    width: 250px;
+    position: absolute;
+    top: -120px;
+    transform: rotate(20deg);
+    transition: 0.3s;
+}
+#first .cooking-image:hover{
+    transform: scale(1.2);
+}
+#first .cooking-image2{
+    width: 180px;
+    position: absolute;
+    top: 90px;
+    left: 230px;
+    transition: 0.3s;
+}
+#first .cooking-image2:hover{
+    transform: scale(1.2);
+}
+#first .cooking-image3{
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: 430px;
+    transition: 0.3s;
+}
+#first .cooking-image3:hover{
+    transform: rotate(-20deg) scale(1.2);
 }
 /* First */
 
@@ -80,11 +139,40 @@ body{
     background-color: var(--warna2);
 }
 #second h1{
-    font-family: 'Lobster Two', cursive;
-    margin-bottom: 30px;
-    font-size: 55px;
+    font-weight: 700;
+}
+
+#second .search-bar{
+    width: 100%;
+    border: 1.5px solid var(--warna6);
+    border-radius: 25px;
+    padding: 3px 15px;
+    display: flex;
+}
+#second .search-bar form{
+    width: 100%;
+}
+#second .search-bar input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+#second .search-bar textarea:focus, input:focus{
+    outline: none;
+}
+
+#second .dropdown-sort-by{
+    background-color: white;
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+#second .dropdown-sort-by span:nth-child(2){
+    font-weight: 700;
 }
 #second .button-jenis{
+    display: flex;
+    align-items: center;
     width: 100%;
     padding: 10px 20px;
     margin-bottom: 15px;
@@ -100,6 +188,52 @@ body{
     background: var(--warna1);
     border: 2px solid var(--warna5);
     box-shadow: 5px 5px 10px var(--warna1);
+}
+
+#second .button-jenis.active{
+    background: var(--warna1);
+    border: 2px solid var(--warna5);
+}
+#second .logo-image{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+#second .all-resep .col-4{
+    margin-bottom: 15px;
+}
+#second .list-resep{
+    background-color: white;
+    padding: 20px 15px;
+    border-radius: 15px;
+}
+#second .list-resep .foto-makanan{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#second .list-resep p{
+    margin-bottom: 0;
+}
+#second .semua-bahan{
+    height: 170px;
+    overflow-y: auto;
+}
+.mulai-masak{
+    border: none;
+    background-color: var(--warna1);
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.mulai-masak img{
+    margin-left: 10px;
 }
 /* Second */
 
