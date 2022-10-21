@@ -52,17 +52,26 @@
         <div class="col-2 d-flex align-items-center mb-4">
           <h1>RESEP</h1>
         </div>
-        <div class="col-8 d-flex align-items-center mb-4">
+        <div class="col-7 d-flex align-items-center mb-4">
           <div class="search-bar">
             <img src="./assets/icon/Search_alt.svg" class="me-2">
             <form action="">
-              <input type="text" placeholder="Cari Resep Makanan Atau Minuman Indonesia">
+              <input type="text" placeholder="Cari Resep Makanan Indonesia">
             </form>
           </div>
         </div>
-        <div class="col-2 d-flex align-items-center mb-4">
+        <div class="col-3 d-flex align-items-center justify-content-end mb-4 dropdown-column">
           <div class="dropdown-sort-by">
-            <span>Sort By :</span><span> Newest</span>
+            <span>Resep Oleh:</span>
+            <span class="sortbytags"></span>
+            <img src="./assets/icon/Expand_down.svg">
+          </div>
+          <div class="dropdown-all">
+            <ul>
+              <li onclick="roycoumami()">Semua</li>
+              <li onclick="royco()">Royco</li>
+              <li onclick="umami()">Umami</li>
+            </ul>
           </div>
         </div>
         <div class="col-lg-2">

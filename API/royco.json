@@ -2,6 +2,7 @@
     {
         "nama" : "Tumis Kangkung",
         "gambar" : "./assets/Tumis Kangkung.jpg",
+        "Jenis" : "Sayur",
         "semua_bahan" : [
             {"bahan" : "Bawang Merah","jumlah" : 5, "satuan" :"buah", "cat" : "Cincang Halus"},
             {"bahan" : "Bawang Putih","jumlah" : 3, "satuan" :"siung", "cat" : "Memarkan Cincang Halus" },
@@ -20,6 +21,7 @@
     },{
         "nama" : "Sayur Asem",
         "gambar" : "./assets/Sayur Asem.jpg",
+        "Jenis" : "Sayur",
         "semua_bahan" : [
             {"bahan" : "Air","jumlah" : 500, "satuan" :"ml", "cat" : ""},
             {"bahan" : "Melinjo","jumlah" : 100, "satuan" :"gram", "cat" : "" },
