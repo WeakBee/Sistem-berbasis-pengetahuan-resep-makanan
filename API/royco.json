@@ -18,7 +18,8 @@
             {"resep" : "Masukkan kangkung, aduk rata hingga semua bahan tercampur rata. Angkat."},
             {"resep" : "Sajikan segera ditemani nasi putih."}
         ]
-    },{
+    },
+    {
         "nama" : "Sayur Asem",
         "gambar" : "./assets/Sayur Asem.jpg",
         "Jenis" : "Sayur",
@@ -38,5 +39,143 @@
             {"resep" : "Masukkan Royco Bumbu Komplit Sayur Asem dan daun melinjo, aduk rata. Angkat."},
             {"resep" : "Sajikan segera."}
         ]
-    }
+    },
+    {
+        "nama" : "Opor Ayam",
+        "gambar" : "",
+        "Jenis" : "Lauk",
+        "semua_bahan" : [
+            {"bahan" : "ayam utuh", "jumlah" : "1", "satuan" : "ekor", "cat" : "potong 8 bagian, buang kulitnya"},
+            {"bahan" : "santan encer", "jumlah" : "1", "satuan" : "L", "cat" : ""},
+            {"bahan" : "santan kental", "jumlah" : "200", "satuan" : "ml", "cat" : ""},
+            {"bahan" : "susu rendah lemak", "jumlah" : "300", "satuan" : "ml", "cat" : ""},
+            {"bahan" : "daun jeruk purut segar", "jumlah" : "4", "satuan" : "buah", "cat" : "biarkan utuh"},
+            {"bahan" : "daun kunyit", "jumlah" : "1", "satuan" : "g", "cat" : "kira-kira 1 lembar"},
+            {"bahan" : "lengkuas", "jumlah" : "1", "satuan" : "g", "cat" : "kira-kira seruas ibu jari, memarkan"},
+            {"bahan" : "serai", "jumlah" : "1", "satuan" : "btg", "cat" : "memarkan"},
+            {"bahan" : "Royco kaldu ayam", "jumlah" : "1", "satuan" : "sdm", "cat" : ""},
+            {"bahan" : "bawang goreng", "jumlah" : "1", "satuan" : "sdm", "cat" : ""},
+            {"bahan" : "bawang merah", "jumlah" : "3", "satuan" : "siung", "cat" : ""},
+            {"bahan" : "bawang putih", "jumlah" : "6", "satuan" : "siung", "cat" : ""},
+            {"bahan" : "kencur", "jumlah" : "1", "satuan" : "g", "cat" : "kira-kira seruas ibu jari, memarkan"},
+            {"bahan" : "merica putih bubuk", "jumlah" : "1", "satuan" : "sdt", "cat" : ""},
+            {"bahan" : "ketumbar butiran", "jumlah" : "1", "satuan" : "sdt", "cat" : ""},
+            {"bahan" : "kemiri", "jumlah" : "5", "satuan" : "buah", "cat" : "sangrai"},
+            {"bahan" : "garam", "jumlah" : "2", "satuan" : "sdt", "cat" : ""},
+            {"bahan" : "gula pasir", "jumlah" : "1", "satuan" : "sdt", "cat" : ""}
+        ],
+        "cara" : [
+            {"resep" : "Aduk rata daging ayam dengan bumbu halus, lalu biarkan selama sekitar 15 menit hingga bumbu meresap."},
+            {"resep" : "Rebus santan encer dan susu rendah lemak, masukkan Royco Kaldu Ayam dan semua bahan kecuali santan kental. Masak di atas api kecil sambil sesekali diaduk agar santan tidak pecah."},
+            {"resep" : "Masukkan santan kental, aduk perlahan hingga ayam empuk. Angkat."},
+            {"resep" : "Sajikan dengan taburan bawang goreng"}
+        ]
+    },
+    {
+        "nama" : "Nasi Goreng Jamur",
+        "gambar" : "",
+        "Jenis" : "Nasi",
+        "semua_bahan" : [
+            {"bahan" : "Nasi putih", "jumlah" : "600", "satuan" : "gr", "cat" : ""},
+            {"bahan" : "daging ayam giling", "jumlah" : "100", "satuan" : "gr", "cat" : ""},
+            {"bahan" : "telur ayam", "jumlah" : "2", "satuan" : "btr", "cat" : ""},
+            {"bahan" : "jamur kancing", "jumlah" : "100", "satuan" : "gr", "cat" : "belah dua"},
+            {"bahan" : "Royco bumbu komplit nasi goreng", "jumlah" : "1", "satuan" : "bks", "cat" : ""},
+            {"bahan" : "minyak goreng", "jumlah" : "1", "satuan" : "sdm", "cat" : ""},
+            {"bahan" : "margarin", "jumlah" : "1", "satuan" : "sdm", "cat" : ""}
+        ],
+        "cara" : [
+            {"resep" : "Panaskan minyak dan margarin di dalam wajan diatas api besar. Masukkan daging ayam, masak hingga berubah warna. Sisihkan di pinggir wajan."},
+            {"resep" : "Masukkan telur, diamkan sebentar. Masak orak arik. Setelah matang, aduk rata dengan ayam."},
+            {"resep" : "Masukkan jamur, aduk rata."},
+            {"resep" : "Tambahkan nasi dan Royco Bumbu Komplit Nasi Goreng, aduk rata."},
+            {"resep" : "Masak hingga bumbu meresap sempurna. Angkat."}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "Jenis" : "",
+        "semua_bahan" : [
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""}
+        ],
+        "cara" : [
+            {"resep" : ""},
+            {"resep" : ""},
+            {"resep" : ""}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "Jenis" : "",
+        "semua_bahan" : [
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""}
+        ],
+        "cara" : [
+            {"resep" : ""},
+            {"resep" : ""},
+            {"resep" : ""}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "Jenis" : "",
+        "semua_bahan" : [
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""}
+        ],
+        "cara" : [
+            {"resep" : ""},
+            {"resep" : ""},
+            {"resep" : ""}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "Jenis" : "",
+        "semua_bahan" : [
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""}
+        ],
+        "cara" : [
+            {"resep" : ""},
+            {"resep" : ""},
+            {"resep" : ""}
+        ]
+    },
+    {
+        "nama" : "",
+        "gambar" : "",
+        "Jenis" : "",
+        "semua_bahan" : [
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
+            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""}
+        ],
+        "cara" : [
+            {"resep" : ""},
+            {"resep" : ""},
+            {"resep" : ""}
+        ]
+    },
+    {}
 ]
