@@ -9,7 +9,7 @@ function umami(){
             <div class="col-4">
                 <div class="list-resep">
                     <div class="d-flex align-items-center">
-                        <img class="foto-makanan" src="./assets/Sayur Asem.jpg">
+                        <img class="foto-makanan" src="`+ data.gambar +`">
                         <div> 
                             <p class="fw-bold">`+ data.nama +`</p>
                             <p>Umami</p>
@@ -158,7 +158,7 @@ function roycoumami(){
             <div class="col-4">
                 <div class="list-resep">
                     <div class="d-flex align-items-center">
-                        <img class="foto-makanan" src="./assets/Sayur Asem.jpg">
+                        <img class="foto-makanan" src="`+ data.gambar +`">
                         <div> 
                             <p class="fw-bold">`+ data.nama +`</p>
                             <p>Umami</p>
