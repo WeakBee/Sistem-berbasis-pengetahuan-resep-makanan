@@ -190,36 +190,47 @@
         ]
     },
     {
-        "nama" : "",
+        "nama" : "Tumis Ayam Sayur",
         "gambar" : "",
         "semua_bahan" : [
-            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+            {"bahan" : "kembang kol","jumlah" : 100, "satuan" :"gr", "cat" : ""},
+            {"bahan" : "sawi putih","jumlah" : 150, "satuan" :"gr", "cat" : ""},
+            {"bahan" : "kol","jumlah" : 50, "satuan" :"gr", "cat" : ""},
+            {"bahan" : "jagung putih","jumlah" : 50, "satuan" :"gr", "cat" : ""},
+            {"bahan" : "Paha ayam fillet","jumlah" : 150, "satuan" :"gr", "cat" : ""},
+            {"bahan" : "tahu putih","jumlah" : 40, "satuan" :"gr", "cat" : ""},
+            {"bahan" : "Masako rasa sapi","jumlah" : 1, "satuan" :"bks", "cat" : ""},
+            {"bahan" : "air","jumlah" : 50, "satuan" :"ml", "cat" : ""},
+            {"bahan" : "bawang putih","jumlah" : 2, "satuan" :"btr", "cat" : "geprek"},
+            {"bahan" : "jahe","jumlah" : 2, "satuan" :"cm", "cat" : "geprek"},
+            {"bahan" : "Minyak goreng","jumlah" : 2, "satuan" :"sdm", "cat" : "untuk menumis"}
 
         ],
         "cara" : [
-            {"resep" : ""}
+            {"resep" : "Tumis bawang putih yang sudah dikupas dan dipotong"},
+            {"resep" : "Masukkan jahe, ayam, dan air ke dalam wajan"},
+            {"resep" : "Tambahkan kembang kol, jagung, sawi putih, dan tahu ke dalam wajan"},
+            {"resep" : "Tambahkan Masako untuk menyempurnakan rasa"}
         ]
     },
     {
-        "nama" : "",
+        "nama" : "Ayam Crispy Saus Madu",
         "gambar" : "",
         "semua_bahan" : [
-            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
+            {"bahan" : "paha ayam fillet","jumlah" : 2, "satuan" :"ptg", "cat" : "potong kecil / 3cm"},
+            {"bahan" : "Sajiku Tepung Serbaguna","jumlah" : 80, "satuan" :"gr", "cat" : "sisihkan 4 sdm dan larutkan dengan 8 sdm air es untuk adonan basah"},
+            {"bahan" : "minyak goreng","jumlah" : 400, "satuan" :"ml", "cat" : ""},
+            {"bahan" : "saus tomat","jumlah" : 6, "satuan" :"sdm", "cat" : ""},
+            {"bahan" : "madu","jumlah" : 3, "satuan" :"sdm", "cat" : ""},
+            {"bahan" : "wijen sangrai","jumlah" : 0.5, "satuan" :"sdm", "cat" : ""},
+            {"bahan" : "daun bawang","jumlah" : 2, "satuan" :"btg", "cat" : "iris kecil"}
 
         ],
         "cara" : [
-            {"resep" : ""}
-        ]
-    },
-    {
-        "nama" : "",
-        "gambar" : "",
-        "semua_bahan" : [
-            {"bahan" : "","jumlah" : 0, "satuan" :"", "cat" : ""}
-
-        ],
-        "cara" : [
-            {"resep" : ""}
+            {"resep" : "Siapkan ayam yang sudah dipotong-potong, campurkan dengan adonan basah Sajiku® Tepung Serbaguna dan aduk rata. Balurkan ke adonan kering hingga rata sambil diremas-remas, hingga terbentuk kulit tepung yang keriting di seluruh permukaan ayam, diamkan sebentar."},
+            {"resep" : "Goreng ayam dalam minyak panas hingga matang dan krispi. Angkat dan tiriskan."},
+            {"resep" : "Campurkan bahan saus manis, lalu masukkan ayam goreng dan campurkan hingga saus terbalur merata."},
+            {"resep" : "Tambahkan taburan biji wijen dan daun bawang, sajikan."}
         ]
     }
 ]
