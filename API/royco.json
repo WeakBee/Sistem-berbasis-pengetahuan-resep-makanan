@@ -1,16 +1,16 @@
 [
     {
         "nama" : "Tumis Kangkung",
-        "gambar" : "./assets/Tumis Kangkung.jpg",
-        "Jenis" : "Sayur",
+        "gambar" : "./assets/royco/Tumis Kangkung.jpg",
+        "jenis" : ["Sayur"],
         "semua_bahan" : [
-            {"bahan" : "Bawang Merah","jumlah" : 5, "satuan" :"buah", "cat" : "Cincang Halus"},
-            {"bahan" : "Bawang Putih","jumlah" : 3, "satuan" :"siung", "cat" : "Memarkan Cincang Halus" },
-            {"bahan" : "Royco Kaldu Ayam","jumlah" : 1.25, "satuan" :"sdt", "cat" : ""},
-            {"bahan" : "Minyak Wijen","jumlah" : 1, "satuan" :"sdm", "cat" : ""},
-            {"bahan" : "Cabai Merah","jumlah" : 2, "satuan" :"buah", "cat" : "Buang Biji Iris Serong Tipis"},
-            {"bahan" : "Kangkung","jumlah" : 2, "satuan" :"ikat", "cat" : "Petiki Daunnya"},
-            {"bahan" : "Minyak","jumlah" : 3, "satuan" :"sdm", "cat" : "Untuk Menumis"}
+            {"bahan" : "bawang merah","jumlah" : 5, "satuan" :"buah", "cat" : "Cincang Halus"},
+            {"bahan" : "bawang putih","jumlah" : 3, "satuan" :"siung", "cat" : "Memarkan Cincang Halus" },
+            {"bahan" : "royco kaldu ayam","jumlah" : 1.25, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "minyak wijen","jumlah" : 1, "satuan" :"sdm", "cat" : ""},
+            {"bahan" : "cabai merah","jumlah" : 2, "satuan" :"buah", "cat" : "Buang Biji Iris Serong Tipis"},
+            {"bahan" : "kangkung","jumlah" : 2, "satuan" :"ikat", "cat" : "Petiki Daunnya"},
+            {"bahan" : "minyak","jumlah" : 3, "satuan" :"sdm", "cat" : "Untuk Menumis"}
         ],
         "cara" : [
             {"resep" : "Panaskan minyak didalam wajan di atas api sedang. Tumis bawang merah dan bawang putih hingga harum."},
@@ -21,8 +21,8 @@
     },
     {
         "nama" : "Sayur Asem",
-        "gambar" : "./assets/Sayur Asem.jpg",
-        "Jenis" : "Sayur",
+        "gambar" : "./assets/royco/Sayur Asem.jpg",
+        "jenis" : ["Sayur"],
         "semua_bahan" : [
             {"bahan" : "Air","jumlah" : 500, "satuan" :"ml", "cat" : ""},
             {"bahan" : "Melinjo","jumlah" : 100, "satuan" :"gram", "cat" : "" },
@@ -43,9 +43,9 @@
     {
         "nama" : "Opor Ayam",
         "gambar" : "",
-        "Jenis" : "Lauk",
+        "jenis" : ["Lauk"],
         "semua_bahan" : [
-            {"bahan" : "ayam utuh", "jumlah" : "1", "satuan" : "ekor", "cat" : "potong 8 bagian, buang kulitnya"},
+            {"bahan" : "ayam", "jumlah" : "1", "satuan" : "ekor", "cat" : "potong 8 bagian, buang kulitnya"},
             {"bahan" : "santan encer", "jumlah" : "1", "satuan" : "L", "cat" : ""},
             {"bahan" : "santan kental", "jumlah" : "200", "satuan" : "ml", "cat" : ""},
             {"bahan" : "susu rendah lemak", "jumlah" : "300", "satuan" : "ml", "cat" : ""},
@@ -53,7 +53,7 @@
             {"bahan" : "daun kunyit", "jumlah" : "1", "satuan" : "g", "cat" : "kira-kira 1 lembar"},
             {"bahan" : "lengkuas", "jumlah" : "1", "satuan" : "g", "cat" : "kira-kira seruas ibu jari, memarkan"},
             {"bahan" : "serai", "jumlah" : "1", "satuan" : "btg", "cat" : "memarkan"},
-            {"bahan" : "Royco kaldu ayam", "jumlah" : "1", "satuan" : "sdm", "cat" : ""},
+            {"bahan" : "royco kaldu ayam", "jumlah" : "1", "satuan" : "sdm", "cat" : ""},
             {"bahan" : "bawang goreng", "jumlah" : "1", "satuan" : "sdm", "cat" : ""},
             {"bahan" : "bawang merah", "jumlah" : "3", "satuan" : "siung", "cat" : ""},
             {"bahan" : "bawang putih", "jumlah" : "6", "satuan" : "siung", "cat" : ""},
@@ -74,7 +74,7 @@
     {
         "nama" : "Nasi Goreng Jamur",
         "gambar" : "",
-        "Jenis" : "Nasi",
+        "jenis" : ["Nasi"],
         "semua_bahan" : [
             {"bahan" : "Nasi putih", "jumlah" : "600", "satuan" : "gr", "cat" : ""},
             {"bahan" : "daging ayam giling", "jumlah" : "100", "satuan" : "gr", "cat" : ""},
@@ -95,7 +95,7 @@
     {
         "nama" : "",
         "gambar" : "",
-        "Jenis" : "",
+        "jenis" : [""],
         "semua_bahan" : [
             {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
             {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
@@ -108,74 +108,5 @@
             {"resep" : ""},
             {"resep" : ""}
         ]
-    },
-    {
-        "nama" : "",
-        "gambar" : "",
-        "Jenis" : "",
-        "semua_bahan" : [
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""}
-        ],
-        "cara" : [
-            {"resep" : ""},
-            {"resep" : ""},
-            {"resep" : ""}
-        ]
-    },
-    {
-        "nama" : "",
-        "gambar" : "",
-        "Jenis" : "",
-        "semua_bahan" : [
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""}
-        ],
-        "cara" : [
-            {"resep" : ""},
-            {"resep" : ""},
-            {"resep" : ""}
-        ]
-    },
-    {
-        "nama" : "",
-        "gambar" : "",
-        "Jenis" : "",
-        "semua_bahan" : [
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""}
-        ],
-        "cara" : [
-            {"resep" : ""},
-            {"resep" : ""},
-            {"resep" : ""}
-        ]
-    },
-    {
-        "nama" : "",
-        "gambar" : "",
-        "Jenis" : "",
-        "semua_bahan" : [
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""},
-            {"bahan" : "", "jumlah" : "", "satuan" : "", "cat" : ""}
-        ],
-        "cara" : [
-            {"resep" : ""},
-            {"resep" : ""},
-            {"resep" : ""}
-        ]
-    },
-    {}
+    }
 ]

@@ -283,6 +283,9 @@
 #second .semua-bahan::-webkit-scrollbar-thumb:hover {
     background: var(--warna5);
 }
+#second .semua-bahan li{
+    text-transform: capitalize;
+}
 #second .mulai-masak{
     border: none;
     background-color: var(--warna1);
@@ -306,3 +309,16 @@
 }
 /* Second */
 
+@media (max-width: 991.98px) {
+    #first .kolom-kiri {
+        position: relative;
+        padding-top: 40px;
+        text-align: center;
+    }
+    .cooking-image,.cooking-image2,.cooking-image3{
+        display: none;
+    }
+    #first .button-mulai {
+        position: relative;
+    }
+}

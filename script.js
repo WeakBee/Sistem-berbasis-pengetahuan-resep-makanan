@@ -6,7 +6,7 @@ function umami(){
         // Membuat Kartu
         $.each(data, function(i,data){
             $('.all-resep').append(`
-            <div class="col-4">
+            <div class="col-lg-4">
                 <div class="list-resep">
                     <div class="d-flex align-items-center">
                         <img class="foto-makanan" src="`+ data.gambar +`">
@@ -57,10 +57,10 @@ function royco(){
         // Membuat Kartu
         $.each(data, function(i,data){
             $('.all-resep').append(`
-            <div class="col-4">
+            <div class="col-lg-4">
                 <div class="list-resep">
                     <div class="d-flex align-items-center">
-                        <img class="foto-makanan" src="./assets/Sayur Asem.jpg">
+                        <img class="foto-makanan" src="./assets/royco/Sayur Asem.jpg">
                         <div> 
                             <p class="fw-bold">`+ data.nama +`</p>
                             <p>Royco</p>
@@ -108,10 +108,10 @@ function roycoumami(){
         // Membuat Kartu
         $.each(data, function(i,data){
             $('.all-resep').append(`
-            <div class="col-4">
+            <div class="col-lg-4">
                 <div class="list-resep">
                     <div class="d-flex align-items-center">
-                        <img class="foto-makanan" src="./assets/Sayur Asem.jpg">
+                        <img class="foto-makanan" src="./assets/royco/Sayur Asem.jpg">
                         <div> 
                             <p class="fw-bold">`+ data.nama +`</p>
                             <p>Royco</p>
@@ -119,7 +119,7 @@ function roycoumami(){
                     </div>
                     <div class="my-3">
                         <p class="mb-3 fw-bold">Bahan Masakan :</p>
-                        <ul class="semua-bahan resep-`+ i +`">
+                        <ul class="semua-bahan resep-royco-`+ i +`">
                         </ul>
                     </div>
                     <div class="d-flex align-items-center">
@@ -144,7 +144,7 @@ function roycoumami(){
         for (let a = 0; a < jumlah; a++) {
             var datas = data[a];
             $.each(datas.semua_bahan, function(i,data){
-                $('.resep-'+a).append(`
+                $('.resep-royco-'+a).append(`
                     <li>`+ data.bahan +`</li>
                 `);
             });
@@ -155,7 +155,7 @@ function roycoumami(){
         // Membuat Kartu
         $.each(data, function(i,data){
             $('.all-resep').append(`
-            <div class="col-4">
+            <div class="col-lg-4">
                 <div class="list-resep">
                     <div class="d-flex align-items-center">
                         <img class="foto-makanan" src="`+ data.gambar +`">
@@ -166,7 +166,7 @@ function roycoumami(){
                     </div>
                     <div class="my-3">
                         <p class="mb-3 fw-bold">Bahan Masakan :</p>
-                        <ul class="semua-bahan resep-`+ i +`">
+                        <ul class="semua-bahan resep-umami-`+ i +`">
                         </ul>
                     </div>
                     <div class="d-flex align-items-center">
@@ -191,7 +191,7 @@ function roycoumami(){
         for (let a = 0; a < jumlah; a++) {
             var datas = data[a];
             $.each(datas.semua_bahan, function(i,data){
-                $('.resep-'+a).append(`
+                $('.resep-umami-'+a).append(`
                     <li>`+ data.bahan +`</li>
                 `);
             });
