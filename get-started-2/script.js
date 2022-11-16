@@ -4,7 +4,7 @@ $.getJSON('../API/sayuran.json', function (data){
     $.each(data, function(i,data){
         $('.row-sayuran').append(`
         <div class="col-3 kolom-kategori">
-            <div class="kartu-kategori">
+            <div class="kartu-kategori" bahan="`+ data.nama +`">
                 <p>`+ data.nama +`</p>
             </div>
         </div>
@@ -17,7 +17,7 @@ $.getJSON('../API/rempah.json', function (data){
     $.each(data, function(i,data){
         $('.row-rempah').append(`
         <div class="col-3 kolom-kategori">
-            <div class="kartu-kategori">
+            <div class="kartu-kategori" bahan="`+ data.nama +`">
                 <p>`+ data.nama +`</p>
             </div>
         </div>
@@ -30,7 +30,7 @@ $.getJSON('../API/hewan.json', function (data){
     $.each(data, function(i,data){
         $('.row-hewan').append(`
         <div class="col-3 kolom-kategori">
-            <div class="kartu-kategori">
+            <div class="kartu-kategori" bahan="`+ data.nama +`">
                 <p>`+ data.nama +`</p>
             </div>
         </div>
@@ -43,7 +43,7 @@ $.getJSON('../API/buah.json', function (data){
     $.each(data, function(i,data){
         $('.row-buah').append(`
         <div class="col-3 kolom-kategori">
-            <div class="kartu-kategori">
+            <div class="kartu-kategori" bahan="`+ data.nama +`">
                 <p>`+ data.nama +`</p>
             </div>
         </div>
@@ -56,7 +56,7 @@ $.getJSON('../API/minyak.json', function (data){
     $.each(data, function(i,data){
         $('.row-minyak').append(`
         <div class="col-3 kolom-kategori">
-            <div class="kartu-kategori">
+            <div class="kartu-kategori" bahan="`+ data.nama +`">
                 <p>`+ data.nama +`</p>
             </div>
         </div>
@@ -69,7 +69,7 @@ $.getJSON('../API/tepung.json', function (data){
     $.each(data, function(i,data){
         $('.row-tepung').append(`
         <div class="col-3 kolom-kategori">
-            <div class="kartu-kategori">
+            <div class="kartu-kategori" bahan="`+ data.nama +`">
                 <p>`+ data.nama +`</p>
             </div>
         </div>
@@ -82,7 +82,7 @@ $.getJSON('../API/nabati.json', function (data){
     $.each(data, function(i,data){
         $('.row-nabati').append(`
         <div class="col-3 kolom-kategori">
-            <div class="kartu-kategori">
+            <div class="kartu-kategori" bahan="`+ data.nama +`">
                 <p>`+ data.nama +`</p>
             </div>
         </div>
@@ -95,7 +95,7 @@ $.getJSON('../API/saus.json', function (data){
     $.each(data, function(i,data){
         $('.row-saus').append(`
         <div class="col-3 kolom-kategori">
-            <div class="kartu-kategori">
+            <div class="kartu-kategori" bahan="`+ data.nama +`">
                 <p>`+ data.nama +`</p>
             </div>
         </div>
@@ -108,7 +108,7 @@ $.getJSON('../API/lainlain.json', function (data){
     $.each(data, function(i,data){
         $('.row-lainlain').append(`
         <div class="col-3 kolom-kategori">
-            <div class="kartu-kategori">
+            <div class="kartu-kategori" bahan="`+ data.nama +`">
                 <p>`+ data.nama +`</p>
             </div>
         </div>
@@ -121,7 +121,7 @@ $.getJSON('../API/penyedap.json', function (data){
     $.each(data, function(i,data){
         $('.row-penyedap').append(`
         <div class="col-3 kolom-kategori">
-            <div class="kartu-kategori">
+            <div class="kartu-kategori" bahan="`+ data.nama +`">
                 <p>`+ data.nama +`</p>
             </div>
         </div>
@@ -137,4 +137,37 @@ $( ".row" ).delegate( ".kartu-kategori", "click", function() {
         $( ".tombol-selesai" ).removeClass("nyala")
     }
 });
+
+$(".tombol-selesai").click(function(){
+    if($(this).hasClass( "nyala" )){
+        $('.row-hasil').empty();
+        // Jumlah data
+        var inginbahan = $('.pilih').attr("bahan");
+        // Jumlah data
+
+        $.getJSON('../API/umami.json', function (data){
+            $.each(data, function(i,data2){
+                $.each(data2.semua_bahan, function(i,data3){
+                    if(data3.bahan == inginbahan.toLowerCase()){
+                        $('.row-hasil').append(`
+                            <li>`+ data2.nama +`</li>
+                        `);
+                    }
+                });
+            });
+        });
+        $.getJSON('../API/royco.json', function (data){
+            $.each(data, function(i,data2){
+                $.each(data2.semua_bahan, function(i,data3){
+                    if(data3.bahan == inginbahan.toLowerCase()){
+                        $('.row-hasil').append(`
+                            <li>`+ data2.nama +`</li>
+                        `);
+                    }
+                });
+            });
+        });
+    };
+});
+
 
