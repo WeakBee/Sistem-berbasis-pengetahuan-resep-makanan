@@ -1,5 +1,6 @@
 section{
     width: 100vw;
+    padding-top: 60px;
     padding-bottom: 60px;
     background: linear-gradient(311deg, rgba(245,173,15,1) 0%, rgba(252,207,101,1) 100%);
 }
