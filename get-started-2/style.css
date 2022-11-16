@@ -1,6 +1,6 @@
 section{
     width: 100vw;
-    height: 100vh;
+    padding-bottom: 60px;
     background: linear-gradient(311deg, rgba(245,173,15,1) 0%, rgba(252,207,101,1) 100%);
 }
 .container-lg{
@@ -45,15 +45,15 @@ section{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.267);
     transform: rotate(45deg);
 }
-.kolom-kategori .kartu-kategori img{
-    width: 30%;
+.kolom-kategori .kartu-kategori p{
+    text-transform: capitalize;
 }
 
 p{
     margin: 0;
     font-weight: 500;
 }
-h1{
+h1, h3{
     color: white;
     text-shadow: 2px 2px 2px black;
 }
@@ -68,12 +68,8 @@ h1{
     color: rgba(255, 255, 255, 0.37);
     border-radius: 15px;
     font-weight: 700;
-    text-decoration: none;
     text-align: center;
     cursor: no-drop;
-}
-.tombol-selesai:hover{
-    color: rgba(255, 255, 255, 0.37);
 }
 .tombol-selesai.nyala{
     background-color: black;
@@ -91,11 +87,12 @@ h1{
         padding: 5px;
     }
     .kolom-kategori .kartu-kategori {
-        padding: 20px 10px;
+        padding: 0;
+        height: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin: 5px 5px;
-    }
-    .kolom-kategori .kartu-kategori img{
-        width: 70%;
     }
     .kolom-kategori .pilih::after{
         right: -60px;

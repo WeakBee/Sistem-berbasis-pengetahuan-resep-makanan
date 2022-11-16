@@ -10,7 +10,7 @@
             {"bahan" : "bawang merah","jumlah" : 7, "satuan" :"buah", "cat" : ""},
             {"bahan" : "bawang putih","jumlah" : 2, "satuan" :"buah", "cat" : ""},
             {"bahan" : "temu kunci","jumlah" : 1, "satuan" :"ruas", "cat" : ""},
-            {"bahan" : "aji no moto","jumlah" : 0.5, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "ajinomoto","jumlah" : 0.5, "satuan" :"sdt", "cat" : ""},
             {"bahan" : "garam","jumlah" : 1, "satuan" :"sdt", "cat" : ""},
             {"bahan" : "air","jumlah" : 1500, "satuan" :"ml", "cat" : ""}
         ],
@@ -61,8 +61,8 @@
             {"bahan" : "bawang merah","jumlah" : 150, "satuan" :"gr", "cat" : "kupas (iris tipis)"},
             {"bahan" : "bawang putih","jumlah" : 1, "satuan" :"siung", "cat" : "cincang kasar"},
             {"bahan" : "daun jeruk","jumlah" : 10, "satuan" :"lbr", "cat" : "buang batang, lalu iris tipis"},
-            {"bahan" : "cabe rawit merah","jumlah" : 8, "satuan" :"buah", "cat" : "iris tipis"},
-            {"bahan" : "sereh","jumlah" : 3, "satuan" :"btg", "cat" : "iris, gunakan bagian putih saja"},
+            {"bahan" : "cabai rawit merah","jumlah" : 8, "satuan" :"buah", "cat" : "iris tipis"},
+            {"bahan" : "serai","jumlah" : 3, "satuan" :"btg", "cat" : "iris, gunakan bagian putih saja"},
             {"bahan" : "jeruk limau","jumlah" : 2, "satuan" :"peras", "cat" : "sesuai selera"},
             {"bahan" : "terasi udang","jumlah" : 1, "satuan" :"sdt", "cat" : ""},
             {"bahan" : "gula","jumlah" : 1, "satuan" :"sdt", "cat" : ""},
@@ -151,8 +151,8 @@
             {"bahan" : "gula jawa","jumlah" : 1, "satuan" :"sdm", "cat" : ""},
             {"bahan" : "air","jumlah" : 70, "satuan" :"ml", "cat" : ""},
             {"bahan" : "garam","jumlah" : 0.5, "satuan" :"sdt", "cat" : ""},
-            {"bahan" : "cabe merah kriting","jumlah" : 5, "satuan" :"buah", "cat" : ""},
-            {"bahan" : "cabe rawit merah","jumlah" : 2, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "cabai merah kriting","jumlah" : 5, "satuan" :"buah", "cat" : ""},
+            {"bahan" : "cabai rawit merah","jumlah" : 2, "satuan" :"buah", "cat" : ""},
             {"bahan" : "bawang merah","jumlah" : 6, "satuan" :"btr", "cat" : ""},
             {"bahan" : "bawang putih","jumlah" : 3, "satuan" :"btr", "cat" : ""},
             {"bahan" : "kemiri","jumlah" : 2, "satuan" :"btr", "cat" : "sangrai"},
@@ -172,7 +172,7 @@
         "gambar" : "./assets/umami/OporAyamKhasSolo.webp",
         "jenis" : ["Daerah","Lauk"],
         "semua_bahan" : [
-            {"bahan" : "ayam","jumlah" : 1, "satuan" :"kg", "cat" : "(potong 10 bagian)"},
+            {"bahan" : "daging ayam","jumlah" : 1, "satuan" :"kg", "cat" : "(potong 10 bagian)"},
             {"bahan" : "santan kental","jumlah" : 300, "satuan" :"ml", "cat" : ""},
             {"bahan" : "santan encer","jumlah" : 70, "satuan" :"ml", "cat" : ""},
             {"bahan" : "daun jeruk","jumlah" : 5, "satuan" :"lbr", "cat" : ""},
@@ -184,9 +184,9 @@
             {"bahan" : "minyak goreng","jumlah" : 2, "satuan" :"sdm", "cat" : "untuk menumis"},
             {"bahan" : "bawang merah","jumlah" : 10, "satuan" :"siung", "cat" : ""},
             {"bahan" : "bawang putih","jumlah" : 4, "satuan" :"siung", "cat" : ""},
-            {"bahan" : "ketumbar sangrai","jumlah" : 2, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "ketumbar","jumlah" : 2, "satuan" :"sdt", "cat" : "sangrai"},
             {"bahan" : "jahe","jumlah" : 2, "satuan" :"cm", "cat" : ""},
-            {"bahan" : "jinten sangrai","jumlah" : 0.25, "satuan" :"sdt", "cat" : ""},
+            {"bahan" : "jinten","jumlah" : 0.25, "satuan" :"sdt", "cat" : "sangrai"},
             {"bahan" : "bawang goreng","jumlah" : 0, "satuan" :"", "cat" : ""}
 
         ],
@@ -205,14 +205,13 @@
             {"bahan" : "sawi putih","jumlah" : 150, "satuan" :"gr", "cat" : ""},
             {"bahan" : "kol","jumlah" : 50, "satuan" :"gr", "cat" : ""},
             {"bahan" : "jagung putih","jumlah" : 50, "satuan" :"gr", "cat" : ""},
-            {"bahan" : "Paha ayam fillet","jumlah" : 150, "satuan" :"gr", "cat" : ""},
+            {"bahan" : "paha ayam fillet","jumlah" : 150, "satuan" :"gr", "cat" : ""},
             {"bahan" : "tahu putih","jumlah" : 40, "satuan" :"gr", "cat" : ""},
-            {"bahan" : "Masako rasa sapi","jumlah" : 1, "satuan" :"bks", "cat" : ""},
+            {"bahan" : "masako rasa sapi","jumlah" : 1, "satuan" :"bks", "cat" : ""},
             {"bahan" : "air","jumlah" : 50, "satuan" :"ml", "cat" : ""},
-            {"bahan" : "Bawang Putih","jumlah" : 2, "satuan" :"btr", "cat" : "geprek"},
+            {"bahan" : "bawang putih","jumlah" : 2, "satuan" :"btr", "cat" : "geprek"},
             {"bahan" : "jahe","jumlah" : 2, "satuan" :"cm", "cat" : "geprek"},
-            {"bahan" : "Minyak goreng","jumlah" : 2, "satuan" :"sdm", "cat" : "untuk menumis"}
-
+            {"bahan" : "minyak goreng","jumlah" : 2, "satuan" :"sdm", "cat" : "untuk menumis"}
         ],
         "cara" : [
             {"resep" : "Tumis bawang putih yang sudah dikupas dan dipotong"},
@@ -227,11 +226,11 @@
         "jenis" : ["Lauk"],
         "semua_bahan" : [
             {"bahan" : "ayam fillet","jumlah" : 2, "satuan" :"ptg", "cat" : "paha potong kecil / 3cm"},
-            {"bahan" : "Sajiku Tepung Serbaguna","jumlah" : 80, "satuan" :"gr", "cat" : "sisihkan 4 sdm dan larutkan dengan 8 sdm air es untuk adonan basah"},
+            {"bahan" : "sajiku tepung serbaguna","jumlah" : 80, "satuan" :"gr", "cat" : "sisihkan 4 sdm dan larutkan dengan 8 sdm air es untuk adonan basah"},
             {"bahan" : "minyak goreng","jumlah" : 400, "satuan" :"ml", "cat" : ""},
             {"bahan" : "saus tomat","jumlah" : 6, "satuan" :"sdm", "cat" : ""},
             {"bahan" : "madu","jumlah" : 3, "satuan" :"sdm", "cat" : ""},
-            {"bahan" : "wijen sangrai","jumlah" : 0.5, "satuan" :"sdm", "cat" : ""},
+            {"bahan" : "wijen","jumlah" : 0.5, "satuan" :"sdm", "cat" : "sangrai"},
             {"bahan" : "daun bawang","jumlah" : 2, "satuan" :"btg", "cat" : "iris kecil"}
 
         ],

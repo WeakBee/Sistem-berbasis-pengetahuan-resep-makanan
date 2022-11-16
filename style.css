@@ -242,7 +242,7 @@
 #second .logo-image img{
     width: 100%;
 }
-#second .all-resep .col-4{
+#second .all-resep .col-lg-4{
     margin-bottom: 15px;
 }
 #second .list-resep{
